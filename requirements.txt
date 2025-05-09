@@ -1,4 +1,7 @@
-Flask>=2.0.0
-spotipy>=2.23.0
-python-dotenv>=0.21.0
-gunicorn>=23.0.0
+Flask==2.1.1
+edge-tts==0.0.8
+pygame==2.6.1
+spotipy==2.18.0
+speechrecognition==3.8.1
+python-dotenv==0.19.2
+requests==2.26.0
