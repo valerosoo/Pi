@@ -11,6 +11,7 @@ load_dotenv()
 # Configurar Flask
 app = Flask(__name__)
 
+
 # Obtener IP local
 def obtener_ip_local():
     hostname = socket.gethostname()
@@ -62,6 +63,6 @@ def callback():
     else:
         return "Error al iniciar sesión.", 400
 
+
 if __name__ == "__main__":
-    print(f"Servidor corriendo en http://{ip_local}:5000")
-    app.run(host='0.0.0.0', port=5000)
+    app.run(debug=True)
