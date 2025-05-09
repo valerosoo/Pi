@@ -11,9 +11,6 @@ load_dotenv()
 # Configurar Flask
 app = Flask(__name__)
 
-@app.route("/")
-def index():
-    return "Hola desde Render"
 # Obtener IP local
 def obtener_ip_local():
     hostname = socket.gethostname()
